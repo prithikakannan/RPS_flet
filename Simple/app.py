@@ -1,6 +1,5 @@
 import flet as ft
 import random
-
 def main(page: ft.Page):
     page.title = "Rock Paper Scissors"
     page.theme_mode = ft.ThemeMode.LIGHT
@@ -11,7 +10,6 @@ def main(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
-    # Game variables
     player_score = 0
     computer_score = 0
     ties = 0
